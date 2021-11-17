@@ -31,11 +31,23 @@ namespace TicTacToeGame
             {
                 Console.WriteLine("Computer Input is "+X);
             }
-           
-
-
-
+   
         }
+
+        public void boardDisplay()
+        {
+     
+            Console.WriteLine("     |      |     ");
+            Console.WriteLine("-----|------|-----");
+            Console.WriteLine("     |      |     ");
+            Console.WriteLine("-----|------|-----");
+            Console.WriteLine("     |      |     ");
+            Console.WriteLine("     |      |     ");
+        }
+
+
+
+
     }
 
 }

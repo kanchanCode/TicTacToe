@@ -10,6 +10,7 @@ namespace TicTacToeGame
 
             TicTacToe obj1 = new TicTacToe();
             obj1.inputs();
+            obj1.boardDisplay();
 
         }
     }

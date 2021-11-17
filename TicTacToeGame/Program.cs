@@ -6,7 +6,11 @@ namespace TicTacToeGame
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Tic-Tac-Toe!");
+
+            TicTacToe obj1 = new TicTacToe();
+            obj1.inputs();
+
         }
     }
 }
